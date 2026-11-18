@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or manuscript in your research, please cite it as below."
+title: "A string-length representation of the two-hole ground state of the t–J model: pair–antiferromagnet decoupling tested by exact diagonalization"
+authors:
+  - family-names: "Acharya"
+    given-names: "Rishiraj"
+version: 1.0.0
+doi: 10.5281/zenodo.24330930
+date-released: 2026-11-18
+url: "https://github.com/rishiraj/tj-string-decoupling"
+repository-code: "https://github.com/rishiraj/tj-string-decoupling"
+license: MIT
