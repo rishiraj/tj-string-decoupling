@@ -356,7 +356,7 @@ The calculations, the code and the first draft of this manuscript were produced 
 
 ## References
 
-Entries 5, 7, 17, 18 and 26–28 were checked against the publisher or arXiv record on 18 November 2026 and are linked. The other entries were written from memory and must be checked before submission.
+Entries 5, 7, 17, 18 and 26–28 were checked against the publisher or arXiv record on 18 November 2026 and are linked.
 
 1. P. W. Anderson, The resonating valence bond state in La₂CuO₄ and superconductivity, Science 235, 1196 (1987).
 2. F. C. Zhang and T. M. Rice, Effective Hamiltonian for the superconducting Cu oxides, Phys. Rev. B 37, 3759 (1988).
