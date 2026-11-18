@@ -2,6 +2,8 @@
 
 Nov 18, 2026 · @Rishiraj Acharya
 
+[![DOI](https://zenodo.org/badge/1462319304.svg)](https://doi.org/10.5281/zenodo.24330930)
+
 ## Abstract
 
 A nine-amplitude wavefunction reproduces the exact two-hole ground state of the 4×4 t–J model with 97% fidelity for 0.25 ≤ J/t ≤ 1. The wavefunction is a d-wave singlet pair removed from the undoped Heisenberg ground state and dressed by powers of the projected hopping operator. Its only variational freedom is the distribution of string lengths.
@@ -385,17 +387,18 @@ Entries 5, 7, 17, 18 and 26–28 were checked against the publisher or arXiv rec
 27. P. W. Leung and R. J. Gooding, Dynamical properties of the single-hole t–J model on a 32-site square lattice, [arXiv:cond-mat/9509087](https://arxiv.org/pdf/cond-mat/9509087) (1995).
 28. P. W. Leung, Hole correlation and antiferromagnetic order in the t–J model, [arXiv:cond-mat/0511568](https://arxiv.org/pdf/cond-mat/0511568) (2005).
 
-# String-length ansatz for two holes in the 4x4 t-J model: scripts
+## Citation
 
-All scripts need numpy and scipy only. Run from this folder. Each finishes in under five minutes on one core with 3 GB of memory.
+If you build upon this analysis or use the exact-diagonalization scripts, please cite:
 
-| Script | What it does |
-|---|---|
-| `tj_core.py` | t-J Hamiltonian with fermion signs, lattice symmetry operators |
-| `validate.py` | Heisenberg benchmark; Hubbard vs t-J (with and without three-site terms) on a 10-site cluster at 20% doping |
-| `frames.py`, `run_frames.py` | Schmidt analysis of "pair wavefunction x spin background" product states in fixed frames. `python run_frames.py 0.4` |
-| `strings.py` | The string ansatz: sum_l a_l T^l Delta_d \|AF vacuum>, compared with full Lanczos from the same seed |
-| `extras.py` | Sector dimension, staggered magnetisation, J-scaling of the pair energy |
-| `excite.py` | Excitations: string model vs exact states resolved by symmetry and spin. `python excite.py 0.4` |
-| `rvb.py` | Gutzwiller-projected d-wave pair (RVB) baseline. `python rvb.py 0.4` |
-| `rvb_check.py`, `rvb_slater_check.py` | Checks of the RVB machinery at half filling |
+```bibtex
+@misc{acharya2026string,
+  author       = {Acharya, Rishiraj},
+  title        = {A string-length representation of the two-hole ground state of the t--J model: pair--antiferromagnet decoupling tested by exact diagonalization},
+  month        = nov,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.24330930},
+  url          = {[https://doi.org/10.5281/zenodo.24330930](https://doi.org/10.5281/zenodo.24330930)}
+}
